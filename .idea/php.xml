@@ -2,8 +2,8 @@
 <project version="4">
   <component name="PhpIncludePathManager">
     <include_path>
-      <path value="$PROJECT_DIR$/../../../../../laragon/bin/php/php-7.4.19-Win32-vc15-x64" />
+      <path value="$PROJECT_DIR$/../../../../../xampp/php" />
     </include_path>
   </component>
-  <component name="PhpProjectSharedConfiguration" php_language_level="7.4" />
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />
 </project>
