@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="utf-8">
@@ -124,7 +124,6 @@
 
         <div class="container" data-aos="fade-up">
             <div class="row gx-0">
-
                 <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
                     <div class="content">
                         <h3>¿Quiénes somos?</h3>
@@ -1362,7 +1361,8 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <form action="forms/contact.php" method="post" class="php-email-form">
+                    <form action="https://api.web3forms.com/submit" method="post" class="php-email-form" id="form">
+                        <input type="hidden" name="access_key" value="0e7fa765-c2e4-42e0-8f2f-851382b34e24" />
                         <div class="row gy-4">
 
                             <div class="col-md-6">
@@ -1511,6 +1511,7 @@
 
 <!-- Template Main JS File -->
 <script src="assets/js/main.js"></script>
+<script src="assets/vendor/php-email-form/contact.js"></script>
 
 </body>
 
