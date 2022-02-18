@@ -60,29 +60,42 @@
             <ul>
                 <li><a class="nav-link scrollto active" href="#hero">Inicio</a></li>
                 <li><a class="nav-link scrollto" href="#about">Nosotros</a></li>
-                <li><a class="nav-link scrollto" href="#services">Servicios</a></li>
+                <li class="dropdown"><a href="#services"><span>Servicios</span> <i class="bi bi-chevron-down"></i></a>
+                    <ul>
+                        <li class="dropdown"><a href="#services"><span>Sistema ERP - Módulos</span> <i class="bi bi-chevron-right"></i></a>
+                            <!--ul>
+                                <li><a href="#">Deep Drop Down 1</a></li>
+                                <li><a href="#">Deep Drop Down 2</a></li>
+                                <li><a href="#">Deep Drop Down 3</a></li>
+                                <li><a href="#">Deep Drop Down 4</a></li>
+                                <li><a href="#">Deep Drop Down 5</a></li>
+                            </ul-->
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a href="#pricing">Facturación Electrónica</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a href="web-design.html">Diseño y Desarrollo Web</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a href="#services">Redes y Conectividad</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a href="#services">Desarrollo de Software</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a href="#services">Correos Corporativos</a></li>
+                    </ul>
+                </li>
                 <li><a class="nav-link scrollto" href="#portfolio">Portafolio</a></li>
                 <li><a class="nav-link scrollto" href="#team">Equipo</a></li>
                 <li><a href="#blog.html">Blog</a></li>
-                <!--
-                <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-                  <ul>
-                    <li><a href="#">Drop Down 1</a></li>
-                    <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                      <ul>
-                        <li><a href="#">Deep Drop Down 1</a></li>
-                        <li><a href="#">Deep Drop Down 2</a></li>
-                        <li><a href="#">Deep Drop Down 3</a></li>
-                        <li><a href="#">Deep Drop Down 4</a></li>
-                        <li><a href="#">Deep Drop Down 5</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="#">Drop Down 2</a></li>
-                    <li><a href="#">Drop Down 3</a></li>
-                    <li><a href="#">Drop Down 4</a></li>
-                  </ul>
-                </li>
-                -->
                 <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
                 <li><a class="getstarted scrollto" href="#about">Empezar</a></li>
             </ul>
@@ -557,7 +570,7 @@
                         <h3>Sistema ERP</h3>
                         <p>Contamos con nuestro propio sistema de gestión comercial para facilitar tus procesos en tu
                             negocio.</p>
-                        <a href="#" class="read-more"><span>Saber más</span> <i class="bi bi-arrow-right"></i></a>
+                        <a href="#pricing" class="read-more"><span>Saber más</span> <i class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -566,7 +579,7 @@
                         <i class="ri-discuss-line icon"></i>
                         <h3>Facturación Electrónica</h3>
                         <p>Ofrece el servicio de facturación electrónica como PSE - PSE ARZA TECHNOLOGY S.A.C.</p>
-                        <a href="#" class="read-more"><span>Saber más</span> <i class="bi bi-arrow-right"></i></a>
+                        <a href="#pricing" class="read-more"><span>Saber más</span> <i class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -575,7 +588,7 @@
                         <i class="ri-discuss-line icon"></i>
                         <h3>Diseño y Desarrollo Web</h3>
                         <p>Diseño y Desarrollo de Páginas Web a medida del negocio.</p>
-                        <a href="#" class="read-more"><span>Saber más</span> <i class="bi bi-arrow-right"></i></a>
+                        <a href="web-design.html" class="read-more"><span>Saber más</span> <i class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -600,9 +613,9 @@
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
                     <div class="service-box pink">
                         <i class="ri-discuss-line icon"></i>
-                        <h3>Servicio de Correos Coorporativos</h3>
+                        <h3>Correo Coorporativo + Dominio</h3>
                         <p>Gestiona tu correo empresarial con dominio propio fácilmente.</p>
-                        <a href="#" class="read-more"><span>Saber más</span> <i class="bi bi-arrow-right"></i></a>
+                        <a href="email-domain.html" class="read-more"><span>Saber más</span> <i class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -1347,7 +1360,7 @@
                             <div class="info-box">
                                 <i class="bi bi-envelope"></i>
                                 <h3>Email:</h3>
-                                <p>info@arzatechnology.com<br>contacto@arzatechnology.com</p>
+                                <p>contacto@arzatechnology.com<br>ventas@arzatechnology.com</p>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -1457,8 +1470,8 @@
                 <div class="col-lg-2 col-6 footer-links">
                     <h4>Nuestros Servicios</h4>
                     <ul>
-                        <li><i class="bi bi-chevron-right"></i> <a href="#">Diseño Web</a></li>
-                        <li><i class="bi bi-chevron-right"></i> <a href="#">Desarrollo Web</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="web-design.html">Diseño Web</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="web-design.html">Desarrollo Web</a></li>
                         <li><i class="bi bi-chevron-right"></i> <a href="#">Facturación Electrónica</a></li>
                         <li><i class="bi bi-chevron-right"></i> <a href="#">Sistema de Gestión Comercial ERP</a></li>
                         <li><i class="bi bi-chevron-right"></i> <a href="#">Correos Coorporativos</a></li>
@@ -1474,7 +1487,7 @@
                         <strong>Teléfonos:</strong> +51 915 2441 36<br>&nbsp;&nbsp;&nbsp;&nbsp;
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>+51 941 2522 73</span>
-                        <br><strong>Email:</strong> info@arzatechnology.com<br>
+                        <br><strong>Email:</strong> contacto@arzatechnology.com<br>
                     </p>
 
                 </div>
