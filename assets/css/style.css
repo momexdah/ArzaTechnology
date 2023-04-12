@@ -8,12 +8,14 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
 :root {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+ /*  font-family: "Open Sans", sans-serif; */
+ font-family: 'Play', sans-serif;
   color: #444444;
 }
 
@@ -28,7 +30,8 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Nunito", sans-serif;
+  font-family: 'Play', sans-serif;
+  /* font-family: "Nunito", sans-serif; */
 }
 
 /*--------------------------------------------------------------
@@ -173,7 +176,8 @@ section {
   font-weight: 700;
   letter-spacing: 1px;
   color: #012970;
-  font-family: "Nunito", sans-serif;
+  /* font-family: "Nunito", sans-serif; */
+  font-family: 'Play', sans-serif;
   margin-top: 3px;
 }
 
@@ -201,7 +205,8 @@ section {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: "Nunito", sans-serif;
+  font-family: 'Play', sans-serif;
+ /*  font-family: "Nunito", sans-serif; */
   font-size: 16px;
   font-weight: 700;
   color: #013289;
@@ -403,10 +408,11 @@ section {
   box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
 }
 .hero .btn-get-started span {
-  font-family: "Nunito", sans-serif;
+  font-family: 'Play', sans-serif;
+  /* font-family: "Nunito", sans-serif; */
   font-weight: 600;
-  font-size: 16px;
-  letter-spacing: 1px;
+  font-size: 12px;
+  letter-spacing: 2px;
 }
 .hero .btn-get-started i {
   margin-left: 5px;
@@ -487,9 +493,10 @@ section {
   box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
 }
 .about .btn-read-more span {
-  font-family: "Nunito", sans-serif;
+  /* font-family: "Nunito", sans-serif; */
+  font-family: 'Play', sans-serif;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 1px;
 }
 .about .btn-read-more i {
@@ -558,7 +565,8 @@ section {
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  /* font-family: "Nunito", sans-serif; */
+  font-family: 'Play', sans-serif;
   font-size: 14px;
 }
 
@@ -1961,14 +1969,16 @@ section {
   font-weight: 700;
   letter-spacing: 1px;
   color: #012970;
-  font-family: "Nunito", sans-serif;
+  /* font-family: "Nunito", sans-serif; */
+  font-family: 'Play', sans-serif;
   margin-top: 3px;
 }
 .footer .footer-top .footer-info p {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Nunito", sans-serif;
+  /* font-family: "Nunito", sans-serif; */
+  font-family: 'Play', sans-serif;
 }
 .footer .footer-top .social-links a {
   font-size: 20px;
